@@ -1,4 +1,7 @@
-package pl.coderslab.entity;
+package pl.coderslab;
+
+import pl.coderslab.entity.User;
+import pl.coderslab.entity.UserDao;
 
 import java.util.Arrays;
 
