@@ -1,5 +1,7 @@
 package pl.coderslab.entity;
 
+import java.util.Arrays;
+
 public class MainDao {
     public static void main(String[] args) {
         User user1 = new User("ala@pl", "ala", "ala");
@@ -19,6 +21,9 @@ public class MainDao {
 
 //        userDao.delete(1);
 
-
+        User[] users = userDao.findAll();
+        for (User user : users) {
+            System.out.println(user);
+        }
     }
 }
